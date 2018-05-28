@@ -1,0 +1,22 @@
+{
+    "name": "jlcjj/php-classes",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Classes PHP",
+    "homepage": "https://github.com/jlcjj/php-classes",
+    "authors": [
+        {
+            "name": "jlc engcomp",
+            "email": "jlcjj@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}

@@ -8,7 +8,10 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	$sql = new jlcjj\DB\Sql();
+	$results = $sql->select("SELECT * FROM usuarios");
+	
+	echo json_encode($results);
 
 });
 
